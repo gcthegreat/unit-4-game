@@ -1,0 +1,70 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: azure;
+    font-family: 'Lexend Zetta', sans-serif;
+    overflow: hidden;
+    margin-left: 25px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 55px;
+    position: relative;
+    left: 50%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.character {
+    display: inline-block;
+}
+
+#characterSelect { 
+    background-color: azure;
+    border-color: green;
+    border-style: dotted;
+    border-width: thick;
+    display: inline-block;
+    color: black;
+    
+} 
+
+#characterPick {
+    background-color: azure;
+    border-color: green;
+    border-style: dotted;
+    border-width: thick;
+    display: inline-block;
+    color: black;
+}
+
+.character-img {
+    height: 150px;
+    width: 250px;
+}
+
+.character-name, .character-health {
+    text-align: center;
+}
+
+#showEnemies {
+    background-color: red;
+    border-color: green;
+    border-style: dotted;
+    border-width: thick;
+    display: inline-block;
+    color: black;
+}
+
+#defender {
+    background-color: black;
+    border-color: green;
+    border-style: dotted;
+    border-width: thick;
+    display: inline-block;
+    color: white;
+}
